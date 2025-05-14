@@ -32,19 +32,6 @@
 
 ---
 
-## 📁 File Structure
-
-app/
-└── src/
-    └── main/
-        ├── java/
-        │   └── com/
-        │       └── example/
-        │           └── shapegame_java/     # Contains all Java source files
-        ├── res/
-        │   ├── layout/                     # XML layout files for UI design
-        │   └── drawable/                   # Shape images and other drawable resources
-
 ## 📸 Screenshots
 
 Add screenshots of the app here.
