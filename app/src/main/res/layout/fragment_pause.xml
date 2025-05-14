@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A88EF">
+
+    <TextView
+        android:id="@+id/pauseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAUSED"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/press_start_2p_regular"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/resumeButton"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <Button
+        android:id="@+id/resumeButton"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Resume"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="@font/press_start_2p_regular"
+        android:backgroundTint="#45E1E1"
+        app:layout_constraintTop_toBottomOf="@id/pauseTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/resetButton"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Reset Quiz"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="@font/press_start_2p_regular"
+        android:backgroundTint="#45E1E1"
+        app:layout_constraintTop_toBottomOf="@id/resumeButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/mainMenuButton"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/mainMenuButton"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="Main Menu"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="@font/press_start_2p_regular"
+        android:backgroundTint="#45E1E1"
+        app:layout_constraintTop_toBottomOf="@id/resetButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
