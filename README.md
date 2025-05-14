@@ -34,7 +34,6 @@
 
 ## 📁 File Structure
 
-```plaintext
 app/
 └── src/
     └── main/
