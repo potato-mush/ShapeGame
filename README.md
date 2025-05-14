@@ -34,12 +34,14 @@
 
 ## 📸 Screenshots
 
-Add screenshots of the app here.
+Here are some screenshots of the app:
 
-<!-- Example:
-![Main Menu](screenshots/main_menu.png)
-![Quiz Screen](screenshots/quiz_screen.png)
--->
+- ![Main Menu](screenshots/main_menu.png)
+- ![Level Screen](screenshots/level_screen.png)
+- ![Settings Screen](screenshots/settings_screen.png)
+- ![Quiz Screen](screenshots/quiz_screen.png)
+- ![Pause Screen](screenshots/pause_screen.png)
+- ![Result Screen](screenshots/result_screen.png)
 
 ---
 
