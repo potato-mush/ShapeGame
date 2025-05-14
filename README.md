@@ -36,12 +36,12 @@
 
 Here are some screenshots of the app:
 
-- [Main Menu](screenshots/MainMenu.PNG)
-- [Level Screen](screenshots/LevelScreen.PNG)
-- [Settings Screen](screenshots/SettingsScreen.PNG)
-- [Quiz Screen](screenshots/QuizScreen.PNG)
-- [Pause Screen](screenshots/PauseScreen.PNG)
-- [Result Screen](screenshots/ResultScreen.PNG)
+ ![Main Menu](screenshots/MainMenu.PNG)
+ ![Level Screen](screenshots/LevelScreen.PNG)
+ ![Settings Screen](screenshots/SettingsScreen.PNG)
+ ![Quiz Screen](screenshots/QuizScreen.PNG)
+ ![Pause Screen](screenshots/PauseScreen.PNG)
+ ![Result Screen](screenshots/ResultScreen.PNG)
 
 ---
 
